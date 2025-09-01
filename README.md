@@ -119,7 +119,7 @@ Laragon adalah server lokal yang ringan dan mendukung Laravel secara penuh. Beri
 ### **5. Akses Project**
 - Aplikasi dapat diakses melalui:
     ```
-    http://nama-projek.test
+    http://E-commerce_koperasi_oscar.test
     ```
 
 ---
