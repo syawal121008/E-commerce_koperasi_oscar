@@ -132,15 +132,15 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal A
 - PHP (versi 8.2)
 - Composer
 - Node.js & NPM
-- MySQL atau HeidiSQL
+- MySQL atau HeidiSQL (disarankan HeidiSQL)
 - Laragon (disarankan)
 
 ### **2. Langkah-langkah Instalasi**
 
 1. **Clone repository ini:**
     ```bash
-    git clone https://github.com/username/oscar-2.0.git
-    cd oscar-2.0
+    git clone https://github.com/syawal121008/E-commerce_koperasi_oscar
+    cd E-commerce_koperasi_oscar
     ```
 
 2. **Instal dependensi PHP:**
