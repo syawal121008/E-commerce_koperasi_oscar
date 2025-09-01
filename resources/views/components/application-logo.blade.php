@@ -1,0 +1,1 @@
+<img src="{{ asset('storage/images/smk.png') }}" alt="Logo Koperasi" {{ $attributes }}>
