@@ -20,7 +20,19 @@ Koperasi **SMKIUTAMA** adalah platform E-Commerce berbasis web yang dirancang un
 
 ---
 
+## 🌐 Demo Live Application
+
+> **💡 Kesulitan dalam proses instalasi lokal?**  
+> Kami telah menyediakan versi demo yang dapat diakses langsung tanpa instalasi. Platform ini telah di-deploy dan siap digunakan untuk evaluasi dan pengujian fitur.
+
+**🔗 Akses Demo:** [https://smkiutama-oscar.web.id/](https://smkiutama-oscar.web.id/)
+
+*Catatan: Demo ini menggunakan data sampel dan dapat direset secara berkala untuk keperluan pengujian.*
+
+---
+
 ## 📑 Daftar Isi
+- [Demo Live Application](#-demo-live-application)
 - [Fitur Unggulan](#-fitur-unggulan)
 - [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
 - [Struktur Proyek](#-struktur-proyek)
@@ -64,23 +76,24 @@ Proyek ini dibangun menggunakan tumpukan teknologi (tech stack) yang modern dan 
 
 ## 📂 Struktur Proyek
 
+```
 E-commerce/
-├── app/ # Logika inti aplikasi (Models, Controllers, Providers)
-├── config/ # File konfigurasi proyek
-├── database/ # Migrasi, Seeder, dan Factory database
-├── public/ # Aset publik (CSS, JS, gambar)
+├── app/                # Logika inti aplikasi (Models, Controllers, Providers)
+├── config/             # File konfigurasi proyek
+├── database/           # Migrasi, Seeder, dan Factory database
+├── public/             # Aset publik (CSS, JS, gambar)
 ├── resources/
-│ ├── css/
-│ ├── js/
-│ └── views/ # Template Blade untuk antarmuka pengguna (UI)
-├── routes/ # Definisi rute (web.php, api.php)
-├── .env # File konfigurasi environment
-└── README.md # Dokumentasi proyek
-
+│   ├── css/
+│   ├── js/
+│   └── views/          # Template Blade untuk antarmuka pengguna (UI)
+├── routes/             # Definisi rute (web.php, api.php)
+├── .env                # File konfigurasi environment
+└── README.md           # Dokumentasi proyek
+```
 
 ---
 
-## ⚙️ Setup Laragon
+## ⚙️ Setup Laragon & Laravel
 
 Laragon adalah server lokal yang ringan dan mendukung Laravel secara penuh. Berikut langkah-langkahnya:
 
@@ -184,6 +197,15 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal A
     http://E-commerce_koperasi_oscar.test
     ```
 
+### **⚠️ Mengalami Kesulitan Setup?**
+
+Jika Anda menghadapi kendala teknis dalam proses instalasi atau konfigurasi lingkungan development, kami telah menyediakan **versi production yang dapat diakses langsung** untuk keperluan evaluasi dan demonstrasi.
+
+**🌐 Akses Aplikasi Online:**  
+**[https://smkiutama-oscar.web.id/](https://smkiutama-oscar.web.id/)**
+
+*Aplikasi ini telah di-deploy menggunakan infrastruktur yang stabil dan dapat digunakan untuk mengeksplorasi seluruh fitur platform tanpa perlu setup lokal.*
+
 ---
 
 ## 🌱 Setup Seeder
@@ -193,36 +215,33 @@ Seeder digunakan untuk mengisi data awal (default) pada database setelah migrasi
 ### **Perintah Menjalankan Seeder**
 ```bash
 php artisan migrate --seed
+```
 
-Seeder yang Disertakan
+### **Seeder yang Disertakan**
 
-RoleSeeder → Menambahkan role pengguna (admin, guru, siswa)
+- **RoleSeeder** → Menambahkan role pengguna (admin, guru, siswa)
+- **UserSeeder** → Membuat akun admin default:
+  - **Admin Koperasi:**
+    - Email: `nunik@gmail.com`
+    - Password: `nunik1234`
+  - **Kepala Koperasi:**
+    - Email: `harnoko@gmail.com`
+    - Password: `harnoko1234`
+  - **Siswa:**
+    - Email: `sultannafis1324@gmail.com`
+    - Password: `sultan1324`
+- **CategorySeeder** → Menambahkan kategori produk awal
+- **ProductSeeder** → Menambahkan produk contoh
 
-UserSeeder → Membuat akun admin default:
-
-Admin Koperasi:
-Email: nunik@gmail.com
-Password: nunik1234
-
-Kepala Koperasi:
-Email: harnoko@gmail.com
-Password: harnoko1234
-
-Siswa:
-Email: sultannafis1324@gmail.com
-Password: sultan1324
-
-CategorySeeder → Menambahkan kategori produk awal
-
-ProductSeeder → Menambahkan produk contoh
-
-Menjalankan Seeder Tertentu
+### **Menjalankan Seeder Tertentu**
+```bash
 php artisan db:seed --class=NamaSeeder
+```
 
-Contoh:
+**Contoh:**
+```bash
 php artisan db:seed --class=UserSeeder
-
----
+```
 
 ---
 
@@ -237,15 +256,14 @@ php artisan db:seed --class=UserSeeder
 
 ## 👨‍💻 Tim Pengembang
 
-Sultan Nafis - (Siswa)
+- **Sultan Nafis** - (Siswa)
+- **Syawaludin Alhabsy** - (Siswa)
+- **Harnoko, S.Kom.** - (Pembimbing)
 
-Syawaludin Alhabsy - (Siswa)
+---
 
-Harnoko, S.Kom. - (Pembimbing)
-
-📜 Lisensi
+## 📜 Lisensi
 
 Proyek ini dibuat untuk keperluan Lomba Web Development OSCAR 2.0 dan penggunaan internal di SMK Informatika Utama. Hak cipta dilindungi dan tidak untuk didistribusikan secara komersial tanpa izin.
-
 
 ---
