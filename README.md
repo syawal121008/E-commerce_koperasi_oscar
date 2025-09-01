@@ -237,11 +237,11 @@ php artisan db:seed --class=UserSeeder
 
 ## 👨‍💻 Tim Pengembang
 
-Sultan Nafis - (Lead Developer / Backend)
+Sultan Nafis - (Siswa)
 
-Syawaludin Alhabsy - (Frontend Developer)
+Syawaludin Alhabsy - (Siswa)
 
-Harnoko, S.Kom. - (Pembimbing / Project Advisor)
+Harnoko, S.Kom. - (Pembimbing)
 
 📜 Lisensi
 
