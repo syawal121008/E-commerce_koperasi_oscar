@@ -20,7 +20,7 @@ Koperasi **SMKIUTAMA** adalah platform E-Commerce berbasis web yang dirancang un
 
 ---
 
-## 🌐 Demo Live Application
+## 🌐 Demo Live Website
 
 > **💡 Kesulitan dalam proses instalasi lokal?**  
 > Kami telah menyediakan versi demo yang dapat diakses langsung tanpa instalasi. Platform ini telah di-deploy dan siap digunakan untuk evaluasi dan pengujian fitur.
@@ -201,7 +201,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal A
 
 Jika Anda menghadapi kendala teknis dalam proses instalasi atau konfigurasi lingkungan development, kami telah menyediakan **versi production yang dapat diakses langsung** untuk keperluan evaluasi dan demonstrasi.
 
-**🌐 Akses Aplikasi Online:**  
+**🌐 Akses Website Online:**  
 **[https://smkiutama-oscar.web.id/](https://smkiutama-oscar.web.id/)**
 
 *Aplikasi ini telah di-deploy menggunakan infrastruktur yang stabil dan dapat digunakan untuk mengeksplorasi seluruh fitur platform tanpa perlu setup lokal.*
